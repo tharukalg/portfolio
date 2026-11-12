@@ -24,7 +24,7 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tharuka Lakshan | Software Engineer (Full Stack & Mobile)",
+  title: "Tharuka Lakshan — Full-Stack & Mobile Engineer",
   description:
     "Portfolio of Tharuka Lakshan — Full Stack Software Engineer specializing in Flutter, NestJS, React, .NET, AWS, and AI solutions. Currently a Software Engineer at Savinda Graphic Systems.",
   keywords: [
@@ -57,7 +57,6 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
-        <link rel="icon" href="/jsm-logo.png" sizes="any" />
       </head>
       <body>{children}</body>
     </html>
